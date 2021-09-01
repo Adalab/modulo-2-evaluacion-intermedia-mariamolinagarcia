@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+main {
+  padding: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  height: 30px;
+  background-color: darkcyan;
+  border: none;
+  border-radius: 4px;
+}
+.input {
+  height: 25px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 30px;
+  border: solid grey 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
