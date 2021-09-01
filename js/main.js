@@ -12,7 +12,7 @@ const tried = document.querySelector('.js_tried');
 
 function updateMessages(){
 
-const random = getRandomNumber(5);    
+const random = getRandomNumber(100);    
 console.log('mi numero aleatorio es ' + random);
     if(numberInput.value == random){
         clue.innerHTML = 'Has ganado campeona!!!';
@@ -40,7 +40,7 @@ function updateTries(){
 
 
 function handledStartButton(event){
-    getRandomNumber(5);
+    getRandomNumber(100);
   
     updateMessages(); 
     
@@ -50,7 +50,7 @@ function handledStartButton(event){
 
 //random number function
 function getRandomNumber(max) {
-    return Math.ceil(Math.random() * 5);
+    return Math.ceil(Math.random() * 100);
   }
 
 //BUTTON EVENT
