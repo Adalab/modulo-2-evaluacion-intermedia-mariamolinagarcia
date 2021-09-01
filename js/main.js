@@ -15,16 +15,16 @@ function updateMessages(){
 const random = getRandomNumber(100);    
 console.log('mi numero aleatorio es ' + random);
     if(numberInput.value == random){
-        clue.innerHTML = 'Has ganado campeona!!!';
+        clue.innerHTML = '<p>Has ganado campeona!!!</p>';
 
     }else if(numberInput.value > random){
-        clue.innerHTML = 'Demasiado alto';
+        clue.innerHTML = '<p>Demasiado alto</p>';
 
     }else if( numberInput.value < random){
-        clue.innerHTML = 'Demasiado bajo';
+        clue.innerHTML = '<p>Demasiado bajo</p>';
 
     }else if(numberInput.value > 100){
-        clue.innerHTML = 'El número debe estar entre 1 y 100';
+        clue.innerHTML = '<p>El número debe estar entre 1 y 100</p>';
 
     }
 
